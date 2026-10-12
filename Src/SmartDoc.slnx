@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="SmartDoc.API/SmartDoc.API.csproj" />
+  <Project Path="SmartDoc.Functions/DocumentProcessing.Function/DocumentProcessing.Function.csproj" Id="9119be93-0436-4146-8515-611d6f1fe1fc" />
+  <Project Path="SmartDoc.Models/SmartDoc.Models.csproj" />
+  <Project Path="SmartDoc.Repository/SmartDoc.Repository.csproj" />
+  <Project Path="SmartDoc.Services/SmartDoc.Services.csproj" />
+</Solution>

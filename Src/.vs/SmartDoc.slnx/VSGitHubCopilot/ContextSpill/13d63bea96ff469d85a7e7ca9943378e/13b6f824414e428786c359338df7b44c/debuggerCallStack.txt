@@ -1,0 +1,124 @@
+﻿Thread ID: 28288
+[1] [Exception] Microsoft.Data.SqlClient.dll!Microsoft.Data.SqlClient.SqlConnection.PermissionDemand
+[2] [Exception] Microsoft.Data.SqlClient.dll!Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand
+This is the current user focused stack frame. The provided locals context corresponds to this stack frame, but you may evaluate expressions and retrieve code for any frame.
+[3] [Exception] Microsoft.Data.SqlClient.dll!Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal
+[4] [Exception] Microsoft.Data.SqlClient.dll!Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection
+[5] [Exception] Microsoft.Data.SqlClient.dll!Microsoft.Data.SqlClient.SqlConnection.TryOpen
+[6] [Exception] Microsoft.Data.SqlClient.dll!Microsoft.Data.SqlClient.SqlConnection.InternalOpenAsync
+[7] [Exception] Microsoft.EntityFrameworkCore.Relational.dll!Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync
+[8] [Exception] Microsoft.EntityFrameworkCore.Relational.dll!Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync
+[9] [Exception] Microsoft.EntityFrameworkCore.Relational.dll!Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync
+[10] [Exception] Microsoft.EntityFrameworkCore.Relational.dll!Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync
+[11] [Exception] DocumentProcessing.Function.dll!DocumentProcessing.Function.Services.DocumentProcessingService.ProcessAsync
+Code for the stack frame:
+```csharp C:\Users\ELAPA\OneDrive - Danaher\BK\Elan\Projects\SmartDoc\Src\SmartDoc.Functions\DocumentProcessing.Function\Services\DocumentProcessingService.cs
+29:         public async Task ProcessAsync(DocumentProcessingMessage message, CancellationToken cancellationToken = default)
+30:         {
+31: 
+32:             Document doc = await _dbContext.Document.FirstOrDefaultAsync(x => x.CorrelationId == message.DocumentId);
+33: 
+34:             if (doc == null)
+35:             {
+36:                 throw new InvalidOperationException(
+37:                     $"Document not found: {message.DocumentId}");
+38:             }
+39: 
+40:             bool alreadyProcessed = await _dbContext.Resume.AnyAsync(x => x.DocumentId == doc.Id, cancellationToken);
+41: 
+42:             if (alreadyProcessed)
+43:             {
+44:                 _logger.LogInformation(
+45:                     $"Document {doc.Id} has already been processed. Skipping duplicate message.",
+46:                     message.DocumentId);
+47: 
+48:                 return;
+49:             }
+50: 
+51:             doc.Status = "Processing...";
+52:             await _dbContext.SaveChangesAsync(cancellationToken);
+53: 
+54:             await using var documentStream = await _blobService.DownloadDocument(message, cancellationToken);
+55: 
+56:             string text = await _documentTextReader.ExtractAsync(documentStream, message.BlobName, cancellationToken);
+57:             ResumeExtractionResult result = await _resumeExtractorService.ExtractResumeAsync(text, cancellationToken);
+58: 
+59:             Resume resume = new Resume
+60:             {
+61:                 Id = Guid.NewGuid(),
+62:                 DocumentId = doc.Id,
+63:                 CandidateName = result.CandidateName,
+64:                 Email = result.Email,
+65:                 Phone = result.Mobile,
+66:                 Summary = result.Summary,
+67:                 TotalExperienceYears = result.TotalYearsOfExperience,
+68:                 CreatedAt = DateTime.UtcNow
+69:             };
+70: 
+71:             await _dbContext.Resume.AddAsync(resume, cancellationToken);
+72: 
+73:             doc.Status = "Processed";
+74: 
+75:             await _dbContext.SaveChangesAsync(cancellationToken);
+76: 
+77:         }
+```
+Current statement: line 32
+[12] [Exception] DocumentProcessing.Function.dll!DocumentProcessing.Function.DocumentProcessingFunction.Run
+Code for the stack frame:
+```csharp C:\Users\ELAPA\OneDrive - Danaher\BK\Elan\Projects\SmartDoc\Src\SmartDoc.Functions\DocumentProcessing.Function\DocumentProcessingFunction.cs
+23:     [Function(nameof(DocumentProcessingFunction))]
+24:     public async Task Run(
+25:         [ServiceBusTrigger("%ServiceBusQueueName%", Connection = "ServiceBusConnection", AutoCompleteMessages = false)]
+26:         ServiceBusReceivedMessage message,
+27:         ServiceBusMessageActions messageActions)
+28:     {
+29:         _logger.LogInformation("Message ID: {id}", message.MessageId);
+30:         _logger.LogInformation("Message Body: {body}", message.Body);
+31:         _logger.LogInformation("Message Content-Type: {contentType}", message.ContentType);
+32: 
+33:         var messageBody = message.Body.ToString();
+34: 
+35:         var documentMessage =
+36:             JsonSerializer.Deserialize<DocumentProcessingMessage>(messageBody);
+37: 
+38:         if (documentMessage == null)
+39:         {
+40:             _logger.LogError("Invalid document processing message. MessageId: {MessageId}", message.MessageId);
+41:             throw new InvalidOperationException("Invalid document processing message.");
+42:         }
+43: 
+44:         await _documentProcessingService.ProcessAsync(documentMessage);
+45: 
+46:         // Complete the message
+47:         await messageActions.CompleteMessageAsync(message);
+48:     }
+```
+Current statement: line 44
+[13] [Exception] DocumentProcessing.Function.dll!DocumentProcessing.Function.DirectFunctionExecutor.ExecuteAsync
+Code for the stack frame:
+```csharp C:\Users\ELAPA\AppData\Local\Temp\.vsdbgsrc\5f1dc569e18e809c62d36a0ec892d8cccb1282e2fe7d00e062a163586c73774f\GeneratedFunctionExecutor.g.cs
+28:         public async global::System.Threading.Tasks.ValueTask ExecuteAsync(global::Microsoft.Azure.Functions.Worker.FunctionContext context)
+29:         {
+30:             var inputBindingFeature = context.Features.Get<global::Microsoft.Azure.Functions.Worker.Context.Features.IFunctionInputBindingFeature>();
+31:             var inputBindingResult = await inputBindingFeature.BindFunctionInputAsync(context);
+32:             var inputArguments = inputBindingResult.Values;
+33: 
+34:             if (string.Equals(context.FunctionDefinition.EntryPoint, "DocumentProcessing.Function.DocumentProcessingFunction.Run", StringComparison.Ordinal))
+35:             {
+36:                 var instanceType = types["DocumentProcessing.Function.DocumentProcessingFunction"];
+37:                 var i = _functionActivator.CreateInstance(instanceType, context) as global::DocumentProcessing.Function.DocumentProcessingFunction;
+38:                 await i.Run((global::Azure.Messaging.ServiceBus.ServiceBusReceivedMessage)inputArguments[0], (global::Microsoft.Azure.Functions.Worker.ServiceBusMessageActions)inputArguments[1]);
+39:                 return;
+40:             }
+41:         }
+```
+Current statement: line 38
+[14] [Exception] Microsoft.Azure.Functions.Worker.Core.dll!Microsoft.Azure.Functions.Worker.OutputBindings.OutputBindingsMiddleware.Invoke
+[15] [Exception] Microsoft.Azure.Functions.Worker.Extensions.Http.AspNetCore.dll!Microsoft.Azure.Functions.Worker.Extensions.Http.AspNetCore.FunctionsHttpProxyingMiddleware.Invoke
+[16] System.Private.CoreLib.dll!System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw
+[17] System.Private.CoreLib.dll!System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess
+[18] System.Private.CoreLib.dll!System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification
+[19] [Waiting on Async Operation, double-click or press enter to view Async Call Stacks]
+[20] Microsoft.Azure.Functions.Worker.Core.dll!Microsoft.Azure.Functions.Worker.FunctionsApplication.InvokeFunctionAsync
+........10 more stack frames omitted.

@@ -1,0 +1,39 @@
+using Azure.Monitor.OpenTelemetry.Exporter;
+using Microsoft.Azure.Functions.Worker;
+using Microsoft.Azure.Functions.Worker.Builder;
+using Microsoft.Azure.Functions.Worker.OpenTelemetry;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using DocumentProcessing.Function.Interfaces;
+using Microsoft.Extensions.Hosting;
+using OpenTelemetry;
+using SmartDoc.Models.EntityModels;
+using DocumentProcessing.Function.Services;
+
+var builder = FunctionsApplication.CreateBuilder(args);
+
+builder.ConfigureFunctionsWebApplication();
+
+if (!string.IsNullOrEmpty(Environment.GetEnvironmentVariable("APPLICATIONINSIGHTS_CONNECTION_STRING")))
+{
+    builder.Services.AddOpenTelemetry()
+        .UseFunctionsWorkerDefaults()
+        .UseAzureMonitorExporter();
+}
+
+builder.Services.AddDbContext<CloudDocumentProcessingDbContext>(options =>
+    options.UseSqlServer(
+        builder.Configuration.GetConnectionString("DefaultConnection"),
+        sqlOptions => sqlOptions.EnableRetryOnFailure(
+            maxRetryCount: 5,
+            maxRetryDelay: TimeSpan.FromSeconds(10),
+            errorNumbersToAdd: new[] { -2 })));
+
+builder.Services.AddSingleton<IBlobServices, BlobServices>();
+builder.Services.AddSingleton<IDocumentTextReader, DocumentTextReader>();
+builder.Services.AddSingleton<IOpenAIService, OpenAIService>();
+builder.Services.AddSingleton<IResumeExtractorService, ResumeExtractorService>();
+builder.Services.AddScoped<IDocumentProcessingService, DocumentProcessingService>();
+
+builder.Build().Run();

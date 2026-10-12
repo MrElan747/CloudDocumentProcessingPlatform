@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "SmartDoc.API\\SmartDoc.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "SmartDoc.Functions\\DocumentProcessing.Function\\DocumentProcessing.Function.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

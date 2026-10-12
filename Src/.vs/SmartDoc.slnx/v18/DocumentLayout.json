@@ -1,0 +1,530 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B072C1F9-C607-1F59-346C-ED15F6B901F3}|SmartDoc.API\\SmartDoc.API.csproj|c:\\users\\elapa\\onedrive - danaher\\bk\\elan\\projects\\smartdoc\\src\\smartdoc.api\\controllers\\documentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B072C1F9-C607-1F59-346C-ED15F6B901F3}|SmartDoc.API\\SmartDoc.API.csproj|solutionrelative:smartdoc.api\\controllers\\documentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29C0A90D-F76E-FB44-A0C1-E082875EC4B8}|SmartDoc.Repository\\SmartDoc.Repository.csproj|c:\\users\\elapa\\onedrive - danaher\\bk\\elan\\projects\\smartdoc\\src\\smartdoc.repository\\repositories\\documentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29C0A90D-F76E-FB44-A0C1-E082875EC4B8}|SmartDoc.Repository\\SmartDoc.Repository.csproj|solutionrelative:smartdoc.repository\\repositories\\documentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48AFF472-8F07-F1D3-7DD0-58A3512BD8E7}|SmartDoc.Services\\SmartDoc.Services.csproj|c:\\users\\elapa\\onedrive - danaher\\bk\\elan\\projects\\smartdoc\\src\\smartdoc.services\\services\\documentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48AFF472-8F07-F1D3-7DD0-58A3512BD8E7}|SmartDoc.Services\\SmartDoc.Services.csproj|solutionrelative:smartdoc.services\\services\\documentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48AFF472-8F07-F1D3-7DD0-58A3512BD8E7}|SmartDoc.Services\\SmartDoc.Services.csproj|c:\\users\\elapa\\onedrive - danaher\\bk\\elan\\projects\\smartdoc\\src\\smartdoc.services\\interfaces\\idcoumentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48AFF472-8F07-F1D3-7DD0-58A3512BD8E7}|SmartDoc.Services\\SmartDoc.Services.csproj|solutionrelative:smartdoc.services\\interfaces\\idcoumentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29C0A90D-F76E-FB44-A0C1-E082875EC4B8}|SmartDoc.Repository\\SmartDoc.Repository.csproj|c:\\users\\elapa\\onedrive - danaher\\bk\\elan\\projects\\smartdoc\\src\\smartdoc.repository\\interfaces\\idocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29C0A90D-F76E-FB44-A0C1-E082875EC4B8}|SmartDoc.Repository\\SmartDoc.Repository.csproj|solutionrelative:smartdoc.repository\\interfaces\\idocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9119BE93-0436-4146-8515-611D6F1FE1FC}|SmartDoc.Functions\\DocumentProcessing.Function\\DocumentProcessing.Function.csproj|c:\\users\\elapa\\onedrive - danaher\\bk\\elan\\projects\\smartdoc\\src\\smartdoc.functions\\documentprocessing.function\\services\\documentprocessingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9119BE93-0436-4146-8515-611D6F1FE1FC}|SmartDoc.Functions\\DocumentProcessing.Function\\DocumentProcessing.Function.csproj|solutionrelative:smartdoc.functions\\documentprocessing.function\\services\\documentprocessingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29C0A90D-F76E-FB44-A0C1-E082875EC4B8}|SmartDoc.Repository\\SmartDoc.Repository.csproj|c:\\users\\elapa\\onedrive - danaher\\bk\\elan\\projects\\smartdoc\\src\\smartdoc.repository\\repositories\\servicebusrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29C0A90D-F76E-FB44-A0C1-E082875EC4B8}|SmartDoc.Repository\\SmartDoc.Repository.csproj|solutionrelative:smartdoc.repository\\repositories\\servicebusrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BDC264F-3675-1B7D-3FCA-9DEE08F98489}|SmartDoc.Models\\SmartDoc.Models.csproj|c:\\users\\elapa\\onedrive - danaher\\bk\\elan\\projects\\smartdoc\\src\\smartdoc.models\\entitymodels\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BDC264F-3675-1B7D-3FCA-9DEE08F98489}|SmartDoc.Models\\SmartDoc.Models.csproj|solutionrelative:smartdoc.models\\entitymodels\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BDC264F-3675-1B7D-3FCA-9DEE08F98489}|SmartDoc.Models\\SmartDoc.Models.csproj|c:\\users\\elapa\\onedrive - danaher\\bk\\elan\\projects\\smartdoc\\src\\smartdoc.models\\apimodels\\documentsmodel\\documentstatusmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BDC264F-3675-1B7D-3FCA-9DEE08F98489}|SmartDoc.Models\\SmartDoc.Models.csproj|solutionrelative:smartdoc.models\\apimodels\\documentsmodel\\documentstatusmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BDC264F-3675-1B7D-3FCA-9DEE08F98489}|SmartDoc.Models\\SmartDoc.Models.csproj|c:\\users\\elapa\\onedrive - danaher\\bk\\elan\\projects\\smartdoc\\src\\smartdoc.models\\entitymodels\\clouddocumentprocessingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BDC264F-3675-1B7D-3FCA-9DEE08F98489}|SmartDoc.Models\\SmartDoc.Models.csproj|solutionrelative:smartdoc.models\\entitymodels\\clouddocumentprocessingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9119BE93-0436-4146-8515-611D6F1FE1FC}|SmartDoc.Functions\\DocumentProcessing.Function\\DocumentProcessing.Function.csproj|c:\\users\\elapa\\onedrive - danaher\\bk\\elan\\projects\\smartdoc\\src\\smartdoc.functions\\documentprocessing.function\\documentprocessingfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9119BE93-0436-4146-8515-611D6F1FE1FC}|SmartDoc.Functions\\DocumentProcessing.Function\\DocumentProcessing.Function.csproj|solutionrelative:smartdoc.functions\\documentprocessing.function\\documentprocessingfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ELAPA\\AppData\\Roaming\\Microsoft\\UserSecrets\\e1aaca42-197d-4cdd-bcd4-a6008a5a1938\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9119BE93-0436-4146-8515-611D6F1FE1FC}|SmartDoc.Functions\\DocumentProcessing.Function\\DocumentProcessing.Function.csproj|c:\\users\\elapa\\onedrive - danaher\\bk\\elan\\projects\\smartdoc\\src\\smartdoc.functions\\documentprocessing.function\\documentprocessing.function.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9119BE93-0436-4146-8515-611D6F1FE1FC}|SmartDoc.Functions\\DocumentProcessing.Function\\DocumentProcessing.Function.csproj|solutionrelative:smartdoc.functions\\documentprocessing.function\\documentprocessing.function.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9119BE93-0436-4146-8515-611D6F1FE1FC}|SmartDoc.Functions\\DocumentProcessing.Function\\DocumentProcessing.Function.csproj|c:\\users\\elapa\\onedrive - danaher\\bk\\elan\\projects\\smartdoc\\src\\smartdoc.functions\\documentprocessing.function\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9119BE93-0436-4146-8515-611D6F1FE1FC}|SmartDoc.Functions\\DocumentProcessing.Function\\DocumentProcessing.Function.csproj|solutionrelative:smartdoc.functions\\documentprocessing.function\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9119BE93-0436-4146-8515-611D6F1FE1FC}|SmartDoc.Functions\\DocumentProcessing.Function\\DocumentProcessing.Function.csproj|c:\\users\\elapa\\onedrive - danaher\\bk\\elan\\projects\\smartdoc\\src\\smartdoc.functions\\documentprocessing.function\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9119BE93-0436-4146-8515-611D6F1FE1FC}|SmartDoc.Functions\\DocumentProcessing.Function\\DocumentProcessing.Function.csproj|solutionrelative:smartdoc.functions\\documentprocessing.function\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9119BE93-0436-4146-8515-611D6F1FE1FC}|SmartDoc.Functions\\DocumentProcessing.Function\\DocumentProcessing.Function.csproj|c:\\users\\elapa\\onedrive - danaher\\bk\\elan\\projects\\smartdoc\\src\\smartdoc.functions\\documentprocessing.function\\interfaces\\idocumentprocessingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9119BE93-0436-4146-8515-611D6F1FE1FC}|SmartDoc.Functions\\DocumentProcessing.Function\\DocumentProcessing.Function.csproj|solutionrelative:smartdoc.functions\\documentprocessing.function\\interfaces\\idocumentprocessingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B072C1F9-C607-1F59-346C-ED15F6B901F3}|SmartDoc.API\\SmartDoc.API.csproj|c:\\users\\elapa\\onedrive - danaher\\bk\\elan\\projects\\smartdoc\\src\\smartdoc.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B072C1F9-C607-1F59-346C-ED15F6B901F3}|SmartDoc.API\\SmartDoc.API.csproj|solutionrelative:smartdoc.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9119BE93-0436-4146-8515-611D6F1FE1FC}|SmartDoc.Functions\\DocumentProcessing.Function\\DocumentProcessing.Function.csproj|c:\\users\\elapa\\onedrive - danaher\\bk\\elan\\projects\\smartdoc\\src\\smartdoc.functions\\documentprocessing.function\\interfaces\\iopenaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9119BE93-0436-4146-8515-611D6F1FE1FC}|SmartDoc.Functions\\DocumentProcessing.Function\\DocumentProcessing.Function.csproj|solutionrelative:smartdoc.functions\\documentprocessing.function\\interfaces\\iopenaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9119BE93-0436-4146-8515-611D6F1FE1FC}|SmartDoc.Functions\\DocumentProcessing.Function\\DocumentProcessing.Function.csproj|c:\\users\\elapa\\onedrive - danaher\\bk\\elan\\projects\\smartdoc\\src\\smartdoc.functions\\documentprocessing.function\\services\\resumeextractorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9119BE93-0436-4146-8515-611D6F1FE1FC}|SmartDoc.Functions\\DocumentProcessing.Function\\DocumentProcessing.Function.csproj|solutionrelative:smartdoc.functions\\documentprocessing.function\\services\\resumeextractorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9119BE93-0436-4146-8515-611D6F1FE1FC}|SmartDoc.Functions\\DocumentProcessing.Function\\DocumentProcessing.Function.csproj|c:\\users\\elapa\\onedrive - danaher\\bk\\elan\\projects\\smartdoc\\src\\smartdoc.functions\\documentprocessing.function\\interfaces\\idocumenttextreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9119BE93-0436-4146-8515-611D6F1FE1FC}|SmartDoc.Functions\\DocumentProcessing.Function\\DocumentProcessing.Function.csproj|solutionrelative:smartdoc.functions\\documentprocessing.function\\interfaces\\idocumenttextreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9119BE93-0436-4146-8515-611D6F1FE1FC}|SmartDoc.Functions\\DocumentProcessing.Function\\DocumentProcessing.Function.csproj|c:\\users\\elapa\\onedrive - danaher\\bk\\elan\\projects\\smartdoc\\src\\smartdoc.functions\\documentprocessing.function\\prompts\\resumeextraction.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9119BE93-0436-4146-8515-611D6F1FE1FC}|SmartDoc.Functions\\DocumentProcessing.Function\\DocumentProcessing.Function.csproj|solutionrelative:smartdoc.functions\\documentprocessing.function\\prompts\\resumeextraction.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B072C1F9-C607-1F59-346C-ED15F6B901F3}|SmartDoc.API\\SmartDoc.API.csproj|c:\\users\\elapa\\onedrive - danaher\\bk\\elan\\projects\\smartdoc\\src\\smartdoc.api\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B072C1F9-C607-1F59-346C-ED15F6B901F3}|SmartDoc.API\\SmartDoc.API.csproj|solutionrelative:smartdoc.api\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B072C1F9-C607-1F59-346C-ED15F6B901F3}|SmartDoc.API\\SmartDoc.API.csproj|c:\\users\\elapa\\onedrive - danaher\\bk\\elan\\projects\\smartdoc\\src\\smartdoc.api\\exceptions\\conflictexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B072C1F9-C607-1F59-346C-ED15F6B901F3}|SmartDoc.API\\SmartDoc.API.csproj|solutionrelative:smartdoc.api\\exceptions\\conflictexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B072C1F9-C607-1F59-346C-ED15F6B901F3}|SmartDoc.API\\SmartDoc.API.csproj|c:\\users\\elapa\\onedrive - danaher\\bk\\elan\\projects\\smartdoc\\src\\smartdoc.api\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B072C1F9-C607-1F59-346C-ED15F6B901F3}|SmartDoc.API\\SmartDoc.API.csproj|solutionrelative:smartdoc.api\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9119BE93-0436-4146-8515-611D6F1FE1FC}|SmartDoc.Functions\\DocumentProcessing.Function\\DocumentProcessing.Function.csproj|c:\\users\\elapa\\onedrive - danaher\\bk\\elan\\projects\\smartdoc\\src\\smartdoc.functions\\documentprocessing.function\\services\\blobservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9119BE93-0436-4146-8515-611D6F1FE1FC}|SmartDoc.Functions\\DocumentProcessing.Function\\DocumentProcessing.Function.csproj|solutionrelative:smartdoc.functions\\documentprocessing.function\\services\\blobservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9119BE93-0436-4146-8515-611D6F1FE1FC}|SmartDoc.Functions\\DocumentProcessing.Function\\DocumentProcessing.Function.csproj|c:\\users\\elapa\\onedrive - danaher\\bk\\elan\\projects\\smartdoc\\src\\smartdoc.functions\\documentprocessing.function\\host.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9119BE93-0436-4146-8515-611D6F1FE1FC}|SmartDoc.Functions\\DocumentProcessing.Function\\DocumentProcessing.Function.csproj|solutionrelative:smartdoc.functions\\documentprocessing.function\\host.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9119BE93-0436-4146-8515-611D6F1FE1FC}|SmartDoc.Functions\\DocumentProcessing.Function\\DocumentProcessing.Function.csproj|c:\\users\\elapa\\onedrive - danaher\\bk\\elan\\projects\\smartdoc\\src\\smartdoc.functions\\documentprocessing.function\\interfaces\\iresumeextractorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9119BE93-0436-4146-8515-611D6F1FE1FC}|SmartDoc.Functions\\DocumentProcessing.Function\\DocumentProcessing.Function.csproj|solutionrelative:smartdoc.functions\\documentprocessing.function\\interfaces\\iresumeextractorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BDC264F-3675-1B7D-3FCA-9DEE08F98489}|SmartDoc.Models\\SmartDoc.Models.csproj|c:\\users\\elapa\\onedrive - danaher\\bk\\elan\\projects\\smartdoc\\src\\smartdoc.models\\resumeextractionresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BDC264F-3675-1B7D-3FCA-9DEE08F98489}|SmartDoc.Models\\SmartDoc.Models.csproj|solutionrelative:smartdoc.models\\resumeextractionresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9119BE93-0436-4146-8515-611D6F1FE1FC}|SmartDoc.Functions\\DocumentProcessing.Function\\DocumentProcessing.Function.csproj|c:\\users\\elapa\\onedrive - danaher\\bk\\elan\\projects\\smartdoc\\src\\smartdoc.functions\\documentprocessing.function\\interfaces\\iblobservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9119BE93-0436-4146-8515-611D6F1FE1FC}|SmartDoc.Functions\\DocumentProcessing.Function\\DocumentProcessing.Function.csproj|solutionrelative:smartdoc.functions\\documentprocessing.function\\interfaces\\iblobservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BDC264F-3675-1B7D-3FCA-9DEE08F98489}|SmartDoc.Models\\SmartDoc.Models.csproj|c:\\users\\elapa\\onedrive - danaher\\bk\\elan\\projects\\smartdoc\\src\\smartdoc.models\\apimodels\\documentsmodel\\documentprocessingmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BDC264F-3675-1B7D-3FCA-9DEE08F98489}|SmartDoc.Models\\SmartDoc.Models.csproj|solutionrelative:smartdoc.models\\apimodels\\documentsmodel\\documentprocessingmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IDocumentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Repository\\Interfaces\\IDocumentRepository.cs",
+              "RelativeDocumentMoniker": "SmartDoc.Repository\\Interfaces\\IDocumentRepository.cs",
+              "ToolTip": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Repository\\Interfaces\\IDocumentRepository.cs",
+              "RelativeToolTip": "SmartDoc.Repository\\Interfaces\\IDocumentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T15:56:27.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DocumentsService.cs",
+              "DocumentMoniker": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Services\\Services\\DocumentsService.cs",
+              "RelativeDocumentMoniker": "SmartDoc.Services\\Services\\DocumentsService.cs",
+              "ToolTip": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Services\\Services\\DocumentsService.cs",
+              "RelativeToolTip": "SmartDoc.Services\\Services\\DocumentsService.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAuwEEAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T12:42:22.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DocumentsController.cs",
+              "DocumentMoniker": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.API\\Controllers\\DocumentsController.cs",
+              "RelativeDocumentMoniker": "SmartDoc.API\\Controllers\\DocumentsController.cs",
+              "ToolTip": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.API\\Controllers\\DocumentsController.cs",
+              "RelativeToolTip": "SmartDoc.API\\Controllers\\DocumentsController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAuwCEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T12:42:31.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DocumentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Repository\\Repositories\\DocumentRepository.cs",
+              "RelativeDocumentMoniker": "SmartDoc.Repository\\Repositories\\DocumentRepository.cs",
+              "ToolTip": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Repository\\Repositories\\DocumentRepository.cs",
+              "RelativeToolTip": "SmartDoc.Repository\\Repositories\\DocumentRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAIA5wCQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T12:42:11.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IDcoumentsService.cs",
+              "DocumentMoniker": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Services\\Interfaces\\IDcoumentsService.cs",
+              "RelativeDocumentMoniker": "SmartDoc.Services\\Interfaces\\IDcoumentsService.cs",
+              "ToolTip": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Services\\Interfaces\\IDcoumentsService.cs",
+              "RelativeToolTip": "SmartDoc.Services\\Interfaces\\IDcoumentsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T15:56:55.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DocumentProcessingService.cs",
+              "DocumentMoniker": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Functions\\DocumentProcessing.Function\\Services\\DocumentProcessingService.cs",
+              "RelativeDocumentMoniker": "SmartDoc.Functions\\DocumentProcessing.Function\\Services\\DocumentProcessingService.cs",
+              "ToolTip": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Functions\\DocumentProcessing.Function\\Services\\DocumentProcessingService.cs",
+              "RelativeToolTip": "SmartDoc.Functions\\DocumentProcessing.Function\\Services\\DocumentProcessingService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T03:04:27.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Document.cs",
+              "DocumentMoniker": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Models\\EntityModels\\Document.cs",
+              "RelativeDocumentMoniker": "SmartDoc.Models\\EntityModels\\Document.cs",
+              "ToolTip": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Models\\EntityModels\\Document.cs",
+              "RelativeToolTip": "SmartDoc.Models\\EntityModels\\Document.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T15:25:04.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ServiceBusRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Repository\\Repositories\\ServiceBusRepository.cs",
+              "RelativeDocumentMoniker": "SmartDoc.Repository\\Repositories\\ServiceBusRepository.cs",
+              "ToolTip": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Repository\\Repositories\\ServiceBusRepository.cs",
+              "RelativeToolTip": "SmartDoc.Repository\\Repositories\\ServiceBusRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAIA1wBsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T01:11:49.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DocumentStatusModel.cs",
+              "DocumentMoniker": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Models\\APIModels\\DocumentsModel\\DocumentStatusModel.cs",
+              "RelativeDocumentMoniker": "SmartDoc.Models\\APIModels\\DocumentsModel\\DocumentStatusModel.cs",
+              "ToolTip": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Models\\APIModels\\DocumentsModel\\DocumentStatusModel.cs",
+              "RelativeToolTip": "SmartDoc.Models\\APIModels\\DocumentsModel\\DocumentStatusModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T15:44:43.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CloudDocumentProcessingDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Models\\EntityModels\\CloudDocumentProcessingDbContext.cs",
+              "RelativeDocumentMoniker": "SmartDoc.Models\\EntityModels\\CloudDocumentProcessingDbContext.cs",
+              "ToolTip": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Models\\EntityModels\\CloudDocumentProcessingDbContext.cs",
+              "RelativeToolTip": "SmartDoc.Models\\EntityModels\\CloudDocumentProcessingDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T15:24:53.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DocumentProcessingFunction.cs",
+              "DocumentMoniker": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Functions\\DocumentProcessing.Function\\DocumentProcessingFunction.cs",
+              "RelativeDocumentMoniker": "SmartDoc.Functions\\DocumentProcessing.Function\\DocumentProcessingFunction.cs",
+              "ToolTip": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Functions\\DocumentProcessing.Function\\DocumentProcessingFunction.cs",
+              "RelativeToolTip": "SmartDoc.Functions\\DocumentProcessing.Function\\DocumentProcessingFunction.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAEwCsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T10:04:52.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\ELAPA\\AppData\\Roaming\\Microsoft\\UserSecrets\\e1aaca42-197d-4cdd-bcd4-a6008a5a1938\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\e1aaca42-197d-4cdd-bcd4-a6008a5a1938\\secrets.json",
+              "ToolTip": "C:\\Users\\ELAPA\\AppData\\Roaming\\Microsoft\\UserSecrets\\e1aaca42-197d-4cdd-bcd4-a6008a5a1938\\secrets.json",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\e1aaca42-197d-4cdd-bcd4-a6008a5a1938\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-10T14:09:06.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "local.settings.json",
+              "DocumentMoniker": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Functions\\DocumentProcessing.Function\\local.settings.json",
+              "RelativeDocumentMoniker": "SmartDoc.Functions\\DocumentProcessing.Function\\local.settings.json",
+              "ToolTip": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Functions\\DocumentProcessing.Function\\local.settings.json",
+              "RelativeToolTip": "SmartDoc.Functions\\DocumentProcessing.Function\\local.settings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-10T10:07:27.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Functions\\DocumentProcessing.Function\\Program.cs",
+              "RelativeDocumentMoniker": "SmartDoc.Functions\\DocumentProcessing.Function\\Program.cs",
+              "ToolTip": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Functions\\DocumentProcessing.Function\\Program.cs",
+              "RelativeToolTip": "SmartDoc.Functions\\DocumentProcessing.Function\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T10:05:55.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DocumentProcessing.Function.csproj",
+              "DocumentMoniker": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Functions\\DocumentProcessing.Function\\DocumentProcessing.Function.csproj",
+              "RelativeDocumentMoniker": "SmartDoc.Functions\\DocumentProcessing.Function\\DocumentProcessing.Function.csproj",
+              "ToolTip": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Functions\\DocumentProcessing.Function\\DocumentProcessing.Function.csproj",
+              "RelativeToolTip": "SmartDoc.Functions\\DocumentProcessing.Function\\DocumentProcessing.Function.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-13T15:47:23.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IDocumentProcessingService.cs",
+              "DocumentMoniker": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Functions\\DocumentProcessing.Function\\Interfaces\\IDocumentProcessingService.cs",
+              "RelativeDocumentMoniker": "SmartDoc.Functions\\DocumentProcessing.Function\\Interfaces\\IDocumentProcessingService.cs",
+              "ToolTip": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Functions\\DocumentProcessing.Function\\Interfaces\\IDocumentProcessingService.cs",
+              "RelativeToolTip": "SmartDoc.Functions\\DocumentProcessing.Function\\Interfaces\\IDocumentProcessingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T03:04:42.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.API\\Program.cs",
+              "RelativeDocumentMoniker": "SmartDoc.API\\Program.cs",
+              "ToolTip": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.API\\Program.cs",
+              "RelativeToolTip": "SmartDoc.API\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T03:06:30.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IOpenAIService.cs",
+              "DocumentMoniker": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Functions\\DocumentProcessing.Function\\Interfaces\\IOpenAIService.cs",
+              "RelativeDocumentMoniker": "SmartDoc.Functions\\DocumentProcessing.Function\\Interfaces\\IOpenAIService.cs",
+              "ToolTip": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Functions\\DocumentProcessing.Function\\Interfaces\\IOpenAIService.cs",
+              "RelativeToolTip": "SmartDoc.Functions\\DocumentProcessing.Function\\Interfaces\\IOpenAIService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T15:59:25.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ResumeExtractorService.cs",
+              "DocumentMoniker": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Functions\\DocumentProcessing.Function\\Services\\ResumeExtractorService.cs",
+              "RelativeDocumentMoniker": "SmartDoc.Functions\\DocumentProcessing.Function\\Services\\ResumeExtractorService.cs",
+              "ToolTip": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Functions\\DocumentProcessing.Function\\Services\\ResumeExtractorService.cs",
+              "RelativeToolTip": "SmartDoc.Functions\\DocumentProcessing.Function\\Services\\ResumeExtractorService.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFUAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T15:49:59.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IDocumentTextReader.cs",
+              "DocumentMoniker": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Functions\\DocumentProcessing.Function\\Interfaces\\IDocumentTextReader.cs",
+              "RelativeDocumentMoniker": "SmartDoc.Functions\\DocumentProcessing.Function\\Interfaces\\IDocumentTextReader.cs",
+              "ToolTip": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Functions\\DocumentProcessing.Function\\Interfaces\\IDocumentTextReader.cs",
+              "RelativeToolTip": "SmartDoc.Functions\\DocumentProcessing.Function\\Interfaces\\IDocumentTextReader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T11:15:27.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.API\\Exceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "SmartDoc.API\\Exceptions\\NotFoundException.cs",
+              "ToolTip": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.API\\Exceptions\\NotFoundException.cs",
+              "RelativeToolTip": "SmartDoc.API\\Exceptions\\NotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T01:39:15.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ResumeExtraction.txt",
+              "DocumentMoniker": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Functions\\DocumentProcessing.Function\\Prompts\\ResumeExtraction.txt",
+              "RelativeDocumentMoniker": "SmartDoc.Functions\\DocumentProcessing.Function\\Prompts\\ResumeExtraction.txt",
+              "ToolTip": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Functions\\DocumentProcessing.Function\\Prompts\\ResumeExtraction.txt",
+              "RelativeToolTip": "SmartDoc.Functions\\DocumentProcessing.Function\\Prompts\\ResumeExtraction.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-09-13T12:43:08.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ConflictException.cs",
+              "DocumentMoniker": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.API\\Exceptions\\ConflictException.cs",
+              "RelativeDocumentMoniker": "SmartDoc.API\\Exceptions\\ConflictException.cs",
+              "ToolTip": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.API\\Exceptions\\ConflictException.cs",
+              "RelativeToolTip": "SmartDoc.API\\Exceptions\\ConflictException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T01:39:25.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "BadRequestException.cs",
+              "DocumentMoniker": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.API\\Exceptions\\BadRequestException.cs",
+              "RelativeDocumentMoniker": "SmartDoc.API\\Exceptions\\BadRequestException.cs",
+              "ToolTip": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.API\\Exceptions\\BadRequestException.cs",
+              "RelativeToolTip": "SmartDoc.API\\Exceptions\\BadRequestException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T01:39:05.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BlobServices.cs",
+              "DocumentMoniker": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Functions\\DocumentProcessing.Function\\Services\\BlobServices.cs",
+              "RelativeDocumentMoniker": "SmartDoc.Functions\\DocumentProcessing.Function\\Services\\BlobServices.cs",
+              "ToolTip": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Functions\\DocumentProcessing.Function\\Services\\BlobServices.cs",
+              "RelativeToolTip": "SmartDoc.Functions\\DocumentProcessing.Function\\Services\\BlobServices.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T00:20:31.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "host.json",
+              "DocumentMoniker": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Functions\\DocumentProcessing.Function\\host.json",
+              "RelativeDocumentMoniker": "SmartDoc.Functions\\DocumentProcessing.Function\\host.json",
+              "ToolTip": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Functions\\DocumentProcessing.Function\\host.json",
+              "RelativeToolTip": "SmartDoc.Functions\\DocumentProcessing.Function\\host.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-10T10:07:24.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IResumeExtractorService.cs",
+              "DocumentMoniker": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Functions\\DocumentProcessing.Function\\Interfaces\\IResumeExtractorService.cs",
+              "RelativeDocumentMoniker": "SmartDoc.Functions\\DocumentProcessing.Function\\Interfaces\\IResumeExtractorService.cs",
+              "ToolTip": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Functions\\DocumentProcessing.Function\\Interfaces\\IResumeExtractorService.cs",
+              "RelativeToolTip": "SmartDoc.Functions\\DocumentProcessing.Function\\Interfaces\\IResumeExtractorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T01:16:42.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ResumeExtractionResult.cs",
+              "DocumentMoniker": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Models\\ResumeExtractionResult.cs",
+              "RelativeDocumentMoniker": "SmartDoc.Models\\ResumeExtractionResult.cs",
+              "ToolTip": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Models\\ResumeExtractionResult.cs",
+              "RelativeToolTip": "SmartDoc.Models\\ResumeExtractionResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T14:36:30.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IBlobServices.cs",
+              "DocumentMoniker": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Functions\\DocumentProcessing.Function\\Interfaces\\IBlobServices.cs",
+              "RelativeDocumentMoniker": "SmartDoc.Functions\\DocumentProcessing.Function\\Interfaces\\IBlobServices.cs",
+              "ToolTip": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Functions\\DocumentProcessing.Function\\Interfaces\\IBlobServices.cs",
+              "RelativeToolTip": "SmartDoc.Functions\\DocumentProcessing.Function\\Interfaces\\IBlobServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T00:20:17.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DocumentProcessingMessage.cs",
+              "DocumentMoniker": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Models\\APIModels\\DocumentsModel\\DocumentProcessingMessage.cs",
+              "RelativeDocumentMoniker": "SmartDoc.Models\\APIModels\\DocumentsModel\\DocumentProcessingMessage.cs",
+              "ToolTip": "C:\\Users\\ELAPA\\OneDrive - Danaher\\BK\\Elan\\Projects\\SmartDoc\\Src\\SmartDoc.Models\\APIModels\\DocumentsModel\\DocumentProcessingMessage.cs",
+              "RelativeToolTip": "SmartDoc.Models\\APIModels\\DocumentsModel\\DocumentProcessingMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T23:58:51.009Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
