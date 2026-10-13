@@ -6,9 +6,9 @@ namespace SmartDoc.Models.Enums
 {
     public enum DocumentTypeEnum
     {
-        Resume,
-        Invoice,
-        Requirement,
-        Report
+        Resume = 1,
+        Invoice = 2,
+        Payslip = 3,
+        Others = 4
     }
 }

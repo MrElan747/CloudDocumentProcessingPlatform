@@ -33,12 +33,12 @@ namespace SmartDoc.Services.Services
             _containerClient = blobServiceClient.GetBlobContainerClient(containerName);
         }
 
-        public async Task<BlobUploadedResponse> UploadFileAsync(UploadDocumentRequest request)
+        public async Task<BlobUploadedResponse> UploadFileAsync(UploadDocumentRequest request, DocumentTypeEnum documentType)
         {
             Guid docId = Guid.NewGuid();
             string fileName = $"{docId}-{request.File.FileName}";
 
-            var blobName = $"{request.DocumentTypeEnum.ToString().ToLowerInvariant()}/{fileName}";
+            var blobName = $"{documentType.ToString().ToLowerInvariant()}/{fileName}";
 
             var blobClient = _containerClient.GetBlobClient(blobName);
 
@@ -57,7 +57,7 @@ namespace SmartDoc.Services.Services
             {
                 DocumentId = docId,
                 FileName = fileName,
-                DocumentType = request.DocumentTypeEnum,
+                DocumentType = documentType,
                 ContainerName = _containerClient.Name,
                 BlobPath = blobName,
                 Status = "Uploaded",

@@ -14,17 +14,25 @@ namespace SmartDoc.Services.Services
         private readonly IBlobStorageRepository _blobStorageRepo;
         private readonly IDocumentRepository _documentRepo;
         private readonly IServiceBusRepository _serviceBusRepo;
-        public DocumentsService(IBlobStorageRepository blobStorageRepo, IDocumentRepository documentRepo, IServiceBusRepository serviceBusRepo)
+        private readonly IDocumentTextExtractor _documentTextExtractor;
+        private readonly IOpenAIService _openAIService;
+        public DocumentsService(IBlobStorageRepository blobStorageRepo, IDocumentRepository documentRepo, IServiceBusRepository serviceBusRepo, IDocumentTextExtractor documentTextExtractor, IOpenAIService openAIService)
         {
             _blobStorageRepo = blobStorageRepo;
             _documentRepo = documentRepo;
             _serviceBusRepo = serviceBusRepo;
+            _documentTextExtractor = documentTextExtractor;
+            _openAIService = openAIService;
         }
 
         public async Task<DocumentUploadResponse> UploadFileAsync(UploadDocumentRequest request)
         {
 
-            BlobUploadedResponse res = await _blobStorageRepo.UploadFileAsync(request);
+            string docText = await _documentTextExtractor.ExtractTextAsync(request.File);
+
+            DocumentTypeEnum documentType = await _openAIService.ClassifyAsync(docText);
+
+            BlobUploadedResponse res = await _blobStorageRepo.UploadFileAsync(request, documentType);
 
             Document doc = new Document()
             {
@@ -39,7 +47,7 @@ namespace SmartDoc.Services.Services
                 CreatedAt = DateTime.Now
             };
 
-            bool status = await _documentRepo.InsertDocumentsDetails(doc, res.DocumentType);
+            bool status = await _documentRepo.InsertDocumentsDetails(doc, documentType);
 
             if (status)
             {
@@ -52,7 +60,7 @@ namespace SmartDoc.Services.Services
                     CorrelationId = res.DocumentId.ToString()
                 };
                 await _serviceBusRepo.SendDocumentProcessingMessageAsync(documentProcessing);
-                return new DocumentUploadResponse() { DocumentId = res.DocumentId, DocumentType = res.DocumentType, FileName = res.FileName, Status = res.Status };
+                return new DocumentUploadResponse() { DocumentId = res.DocumentId, DocumentType = documentType, FileName = res.FileName, Status = res.Status };
             }
             else
             {

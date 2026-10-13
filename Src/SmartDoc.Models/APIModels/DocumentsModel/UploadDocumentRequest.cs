@@ -9,7 +9,5 @@ namespace SmartDoc.Models.APIModels.DocumentsModel
     public class UploadDocumentRequest
     {
         public IFormFile File { get; set; }
-
-        public DocumentTypeEnum DocumentTypeEnum { get; set; }
     }
 }
