@@ -163,13 +163,11 @@ repository.
 
 ``` text
 CloudDocumentProcessingPlatform/
-├── CloudDocumentProcessingPlatform.API/
-│   ├── Controllers/
-│   ├── Models/
-│   ├── Repository/
-│   └── Services/
-├── CloudDocumentProcessingPlatform.Functions/
-│   └── DocumentProcessingFunction
+├── DocumentProcessing.Function
+├── SmartDoc.API
+├── SmartDoc.Models
+├── SmartDoc.Repository
+└── SmartDoc.Services
 ├── README.md
 ├── architecture.mmd
 └── architecture.svg
