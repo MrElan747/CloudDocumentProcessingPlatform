@@ -1,0 +1,17 @@
+flowchart TD
+    U[User / API client] --> API[SmartDoc ASP.NET Core Web API]
+    API --> VALIDATE[Validate upload and metadata]
+    VALIDATE --> BLOB[Azure Blob Storage]
+    VALIDATE --> SQLMETA[(SQL document metadata and status)]
+    API --> SB[Azure Service Bus queue: document-processing]
+    SB --> FUNC[Azure Function: DocumentProcessingFunction]
+    FUNC --> LOOKUP[Load document metadata from SQL]
+    LOOKUP --> DOWNLOAD[Download file from Blob Storage]
+    DOWNLOAD --> EXTRACT[Extract document text]
+    EXTRACT --> AI[Azure OpenAI: resume extraction / planned classification]
+    AI --> RESULT[Validate and map result]
+    RESULT --> SQLRESULT[(SQL: resume extraction result)]
+    RESULT --> COMPLETE[Complete Service Bus message]
+    FUNC -->|Retry on failure| SB
+    SB --> DLQ[Dead-letter queue after delivery limit]
+    SQLRESULT --> IDEMP[Idempotency: document ID check + unique constraint]
