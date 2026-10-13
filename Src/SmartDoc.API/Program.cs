@@ -23,6 +23,8 @@ builder.Services.AddDbContext<CloudDocumentProcessingDbContext>(options =>
 builder.Services.AddScoped<IBlobStorageRepository, BlobStorageRepository>();
 builder.Services.AddScoped<IDocumentRepository, DocumentRepository>();
 builder.Services.AddScoped<IServiceBusRepository, ServiceBusRepository>();
+builder.Services.AddScoped<IDocumentTextExtractor, DocumentTextExtractor>();
+builder.Services.AddScoped<IOpenAIService, OpenAIService>();
 builder.Services.AddScoped<IDcoumentsService, DocumentsService>();
 
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
